@@ -22,26 +22,29 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.grid}>
-          <a href="/portfolio" className={styles.card}>
-            <h2>Portfolio &rarr;</h2>
-            <p>Check out my work and my projects</p>
-          </a>
+          <Link href="/portfolio" className={styles.card}>
+            <>
+              <h2>Portfolio &rarr;</h2>
+              <p>Check out my work and my projects</p>
+            </> 
+          </Link>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>About &rarr;</h2>
-            <p>This is the place to learn all about me.</p>
-          </a>
+          <Link href="/about" className={styles.card}>
+            <>
+              <h2>About &rarr;</h2>
+              <p>This is the place to learn all about me.</p>
+            </>
+          </Link>
+
+          <Link href="/contact" className={styles.card}>
+            <>
+              <h2>Work Together &rarr;</h2>
+              <p>Find out the best way to get in touch</p>
+            </>
+          </Link>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Work Together &rarr;</h2>
-            <p>Find out the best way to get in touch</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://medium.com/@malts_and_mash"
             className={styles.card}
           >
             <h2>Blog &rarr;</h2>
