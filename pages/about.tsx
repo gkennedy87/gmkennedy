@@ -13,7 +13,7 @@ const About: NextPage = () => {
             <Image src={mypic} alt="illustration of Grant Kennedy Javascript Developer" height={300} width={300}/>
             <Stack sx={{maxWidth:"60vw"}}>
             <p>Hi there! Welcome to my little slice of the internet. I&apos;m a professional javascript developer, UI/UX designer, and consultant. 
-                I&apos;m the founder of Malts & Mash Marketing as well as the CTO of Loyaltea LLC, the company behind the Elities app. 
+                I&apos;m the owner of Malts & Mash Marketing as well as the CTO of Loyaltea LLC, the company behind the Elities app. 
                 I&apos;ve been working in this crazy field since 2013.</p>
 
             <p>Born and raised in Michigan, I currently reside in Tokyo, Japan with my wife. I speak 3 languages, enjoy Brazilian Jiujitsu and craft beer BUT if you really want me to nerd out just ask me a question about history.</p>

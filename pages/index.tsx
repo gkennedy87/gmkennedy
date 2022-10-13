@@ -22,25 +22,25 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.grid}>
-          <Link href="/portfolio" className={styles.card}>
-            <>
+          <Link href="/portfolio" >
+            <a className={styles.card}>
               <h2>Portfolio &rarr;</h2>
               <p>Check out my work and my projects</p>
-            </> 
+            </a> 
           </Link>
 
-          <Link href="/about" className={styles.card}>
-            <>
+          <Link href="/about" >
+            <a className={styles.card}>
               <h2>About &rarr;</h2>
               <p>This is the place to learn all about me.</p>
-            </>
+            </a>
           </Link>
 
-          <Link href="/contact" className={styles.card}>
-            <>
+          <Link href="/contact" >
+            <a className={styles.card}>
               <h2>Work Together &rarr;</h2>
               <p>Find out the best way to get in touch</p>
-            </>
+            </a>
           </Link>
 
           <a
