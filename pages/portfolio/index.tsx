@@ -12,13 +12,14 @@ import PortfolioPiece from "../../components/portfolioPiece";
 
 const Portfolio: NextPage = () => {
     const router = useRouter();
-
-
     return (
-        <>
-        <Stack pt={3} sx={{justifyContent:'center'}}>
-            <Typography variant="h1" sx={{textAlign:"center"}}>Portfolio</Typography>
-            <Typography variant="h2" className={styles.subtitle} gutterBottom>
+        <Stack pt={3}>
+            <Typography variant="h1" sx={{textAlign:'center'}}>Portfolio</Typography>
+            <Typography variant="h2" sx={{
+                fontSize:'1.2rem',
+                color:"#00000075",
+                textAlign:'center'
+            }} gutterBottom>
                 Here is a sample of some of my work.
             </Typography> 
             
@@ -70,7 +71,6 @@ const Portfolio: NextPage = () => {
                     </Stack>
                 </Stack>
             </Stack>
-        </>
     )
 }
 
