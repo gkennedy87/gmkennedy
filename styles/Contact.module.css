@@ -1,0 +1,7 @@
+.socialIcon {
+    color:black
+  }
+.socialIcon:hover {
+background-color: #0070f310;
+color:#0070f3;
+}

@@ -1,0 +1,16 @@
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.links:hover,
+.links:focus,
+.links:active {
+    color: #0070f3;
+}
+
+.links:active {
+    text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+.featuredImg {
+    border-radius: 10px;
+    max-width: 345px;
+    padding: 0 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 0.25rem;
+}
+.subtitle {
+    font-size: calc(2.5rem*0.50);
+    color: #00000075;
+}
+
+.text {
+    font-size: 1.2rem;
+}
