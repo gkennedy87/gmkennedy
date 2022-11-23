@@ -34,6 +34,7 @@ const Layout = ({children}:any) => {
                 gtag('config', 'UA-57560321-6');
                     `}
                 </Script>
+                <Script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/22322186.js"></Script>
             </Stack>
         </>
     )
