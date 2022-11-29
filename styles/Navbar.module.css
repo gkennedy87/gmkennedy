@@ -14,3 +14,7 @@
 .links:active {
     text-decoration: underline;
 }
+
+.logo {
+    margin-right: 10px;
+}

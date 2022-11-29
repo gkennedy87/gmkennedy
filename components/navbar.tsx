@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Drawer from '@mui/material/Drawer'
+import Image from 'next/image';
 
 
 const navlinks:{title:string, url:string}[] = [
@@ -19,7 +20,7 @@ const navlinks:{title:string, url:string}[] = [
     {title:"Work Together", url:"/contact"}
 ]
 
-const Title:string = "{Grant Kennedy}"
+const Title:string = "{ Grant Kennedy }"
 const Navbar = () => {
     const [anchorElNav, setAnchorElNav] = useState(null);
     const handleOpenNavMenu = (event:any) => {
