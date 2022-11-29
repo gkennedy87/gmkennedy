@@ -16,7 +16,7 @@ const Layout = ({children}:any) => {
                 <meta property="og:description" content="Portfolio site of Grant Kennedy. Professional Javascript developer, UI/UX designer, and consultant. You can learn about him and his work on this site. His views are his own."/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:image" content=""></meta>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/assets/favicon.ico" />
             </Head>
             <Stack px={2}>
                 <Navbar />
